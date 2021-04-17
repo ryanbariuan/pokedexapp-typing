@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#pokemonBox {
+  width: 30%;
+  /*border: 1px solid black;*/
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  transition: margin 0.2s ease-out;
+}
+
+#pokemonBox:hover {
+  margin-top: 20px;
+}
+
+#imageBox {
+  background-color: lightgray;
+  border-radius: 15px;
+}
+
+#imageBox img {
+  width: 100%;
+}
+
+div p,
+div h3 {
+  padding: 5px;
+}
+
+#typeDisplayBox {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#typeDisplayBox a {
+  width: 25%;
+}
